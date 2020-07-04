@@ -9,5 +9,6 @@
     <Import_RootNamespace>SharedProject_ShouldInclude</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FromSharedProject_ShouldBeIncluded.cs" />
   </ItemGroup>
 </Project>

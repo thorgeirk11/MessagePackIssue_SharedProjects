@@ -6,7 +6,7 @@ using System.Text;
 namespace PleaseMessagePackMe
 {
 	[MessagePackObject]
-	class ShouldNotBeIncluded
+	public class ShouldNotBeIncluded
 	{
 		[Key(0)]
 		public int SomeValue { get; set; }

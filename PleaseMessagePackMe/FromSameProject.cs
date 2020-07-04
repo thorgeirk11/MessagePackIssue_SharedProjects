@@ -6,7 +6,7 @@ using System.Text;
 namespace PleaseMessagePackMe
 {
 	[MessagePackObject]
-	class FromSameProject
+	public class FromSameProject
 	{
 		[Key(0)]
 		public int SomeValue { get; set; }
